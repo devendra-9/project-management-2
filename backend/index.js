@@ -1,10 +1,12 @@
 const express = require('express');
 const app = express();
 const cors = require('cors')
+const LocalStorage = require('node-localstorage').LocalStorage
+localStorage = new LocalStorage('./token')
 const bodyparser = require('body-parser')
 const cookieparser = require('cookie-parser')
-// const userlink = require('./routes/uroutes')
-// app.use('/user',userlink)
+const userlink = require('./routes/uroutes')
+app.use('/user',userlink)
 app.use(cors())
 app.use(bodyparser.json())
 app.use(cookieparser())
