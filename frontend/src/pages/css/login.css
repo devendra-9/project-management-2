@@ -1,0 +1,156 @@
+.loginmain
+{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+.loginheader
+{
+    height: 5%;
+    border-left: 2px solid rgb(6, 240, 6);
+    padding-left: 10px;
+}
+.loginheader h1
+{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.loginhead
+{
+    margin-top: 20px;
+    /* background-color: antiquewhite; */
+    height:90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left
+{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 70%;
+}
+.left img
+{
+    width: 100%;
+    height: 100%;
+}
+.right
+{
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 70%;
+}
+.loginbutton
+{
+    width: 100%;
+    height:8%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginbutton button
+{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: rgb(146, 5, 248);
+    border: 1px solid white;
+    outline: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.loginform
+{
+    display: none;
+    padding-left: 10px;
+    margin: 0px;
+}
+#signinbtn, #signupbtn
+{
+    margin-top: 10px;
+    height: 35px;
+    width:75%;
+    background-color: rgb(123, 5, 250);
+    border: 1px solid black;
+    outline: none;
+    border-radius: 50px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+#signinbtn:hover
+{
+    background-color: rgb(142, 49, 242);
+}
+.emailform, .passwordform, .nameform
+{
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+.emailform input, .nameform input
+{
+    margin: 0px;
+    padding: 10px;
+    padding-left:10px;
+    height:10px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    width:70%;
+}
+.showpass
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.showpass input
+{
+    margin: 0px;
+    padding: 10px;
+    padding-left:10px;
+    height:10px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width:55%;
+}
+.showpass button
+{
+    width: 15%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signupform
+{
+    display: none;
+}
+.active
+{
+    display: block;
+}
